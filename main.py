@@ -88,6 +88,7 @@ def search_KW(kw):
     return
 
 
-search_KW(kw=sys.argv[1])
+if __name__ == '__main__':
+    search_KW(kw=sys.argv[1])
 
 
